@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Standard build and XS2 tests') {
       agent {
-        label 'x86_64 && macOS'
+        label 'x86_64 && linux'
       }
       options {
         skipDefaultCheckout()
