@@ -8,7 +8,7 @@ pipeline {
   //Tools for AI verif stage. Tools for standard stage in view file
   environment {
       REPO = 'lib_agc'
-      VIEW = getViewName(REPO)
+      VIEW = "lib_agc_lsm-79_update_python"
   }
   stages {
     stage('Standard build and XS2 tests') {
