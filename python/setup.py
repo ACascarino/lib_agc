@@ -13,7 +13,7 @@ setuptools.setup(
     name='lib_agc',
     packages=setuptools.find_packages(),
     install_requires=[
-        'flake8~=3.8',
+        'flake8~=7.0',
         'matplotlib~=3.3',
         'numpy~=1.18',
         'pylint~=2.5',
